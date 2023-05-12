@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Memory Game!</h1>
+    <h2 class="howToPlay">The Lower the score, the better!</h2>
+    <h2 class="howToPlay">Lowest Score:</h2>
+    <h3 class="howToPlay" id="lowScore"></h3>
+    <h2 class="howToPlay">Score:</h2>
+    <h3 class="howToPlay" id='currentScore'>0</h3>
+    <h4 class="howToPlay">Choose how many matches are generated below!</h4>
+    <form class='startGame'>
+      <input type="number" id="numOfBoxes" placeholder="Default is 6"><br>
+      <button id="startGameButton">Start Game</button>
+    </form>
+    <div id="game">
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
